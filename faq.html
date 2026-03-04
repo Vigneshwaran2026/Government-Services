@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stackly Government Services</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Yantramanav:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/date-time-picker/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/vendors/lotech-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
+    <link rel="stylesheet" href="assets/vendors/aos/aos.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+        .gov-faq-section{
+padding:0px 0;
+background:#f7f8fc;
+}
+
+.gov-faq-image img{
+width:100%;
+border-radius:12px;
+animation:floatImage 6s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+0%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+100%{transform:translateY(0)}
+}
+
+.gov-faq-title h2{
+font-size:36px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.gov-faq-title p{
+color:#666;
+margin-bottom:30px;
+}
+
+.gov-accordion-item{
+border-bottom:1px solid #e5e5e5;
+margin-bottom:10px;
+}
+
+.gov-accordion-header{
+width:100%;
+text-align:left;
+background:#fff;
+border:none;
+padding:18px 20px;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+border-radius:6px;
+}
+
+.gov-accordion-header:hover{
+background:#eef0ff;
+}
+
+.gov-accordion-content{
+max-height:0;
+overflow:hidden;
+transition:max-height 0.4s ease;
+background:#fff;
+padding:0 20px;
+}
+
+.gov-accordion-content p{
+padding:15px 0;
+color:#555;
+}
+    </style>
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+
+        <section class="topbar-two">
+            <div class="container">
+                <div class="topbar-two__inner">
+                    <ul class="list-unstyled topbar-two__info">
+                        <li class="topbar-two__info__item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a>+91 1234567890</a>
+                        </li>
+                        <li class="topbar-two__info__item">
+                            <i class="fas fa-envelope"></i>
+                            <a>Info@stackly.com</a>
+                        </li>
+                        <li class="topbar-two__info__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Salem, Tamilnadu, India.
+                        </li>
+                    </ul><!-- /.list-unstyled topbar-one__info -->
+                    <div class="topbar-two__social">
+                        <p class="topbar-two__social__text">Follow Us</p>
+                        <a href="404_1.html">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                        <a href="404_1.html">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                        <a href="404_1.html">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                        <a href="404_1.html">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </div><!-- /.topbar-one__social -->
+                </div>
+            </div>
+        </section><!-- /.topbar -->
+        <header class="main-header main-header--two sticky-header sticky-header--normal">
+            <div class="container">
+                <div class="main-header__inner">
+                    <div class="main-header__logo">
+                        <a href="index2.html">
+                            <img src="assets/images/home1/resources/logo.webp" alt="Stackly" width="133">
+                        </a>
+                    </div><!-- /.main-header__logo -->
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list">
+
+
+                            <li class="dropdown">
+    <a href="index2.html" data-title="Home"><span>Home</span></a>
+    <ul class="sub-menu">
+        <li><a href="index.html">Home 1</a></li>
+        <li><a href="index2.html">Home 2</a></li>
+    </ul>
+</li>
+                            <li>
+                                <a href="about2.html" data-title="About"><span>About</span></a>
+                            </li>
+
+                            <li>
+                                <a href="services2.html" data-title="Services"><span>Services</span></a>
+                            </li>
+
+                            <li>
+                                <a href="faq.html" data-title="FAQs"><span>FAQs</span></a>
+                            </li>
+
+                            <li>
+                                <a href="news.html" data-title="News"><span>News</span></a>
+                            </li>
+
+
+                            <li>
+                                <a href="contact2.html" data-title="Contact"><span>Contact</span></a>
+                            </li>
+                        </ul>
+                    </nav><!-- /.main-header__nav -->
+                    <div class="main-header__right">
+                        <div class="mobile-nav__btn mobile-nav__toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- /.mobile-nav__toggler -->
+                        <div class="main-header__auth">
+
+    <a href="login2.html" class="auth-btn login-btn">
+        Login/Register
+    </a>
+
+</div>
+                </div><!-- /.main-header__inner -->
+            </div>
+        </header><!-- /.main-header -->
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+      <section class="breadcrumb-modern">
+    <div class="breadcrumb-modern__bg"></div>
+
+    <div class="container">
+        <div class="breadcrumb-modern__content">
+            <h1 class="breadcrumb-modern__title">
+                Frequently Ask Questions
+            </h1>
+
+            <div class="breadcrumb-modern__nav">
+                <a href="index2.html">Home</a>
+                <span>/</span>
+                <span>FAQs</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gov-faq-section">
+<div class="container">
+<div class="row align-items-center">
+
+<!-- Left Image -->
+<div class="col-lg-6">
+<div class="gov-faq-image">
+<img src="assets/images/home1/resources/faq.webp" alt="Government Services FAQ">
+</div>
+</div>
+
+<!-- Right FAQ -->
+<div class="col-lg-6">
+
+<div class="gov-faq-title">
+<h2>Government Services FAQs</h2>
+<p>
+Find answers to common questions about applying for government
+services, certificates, and digital public services.
+</p>
+</div>
+
+<div class="gov-accordion">
+
+<div class="gov-accordion-item">
+<button class="gov-accordion-header">
+How can I apply for a government service online?
+</button>
+<div class="gov-accordion-content">
+<p>
+Create an account, select the required service, upload the necessary
+documents, and submit your application through our digital portal.
+</p>
+</div>
+</div>
+
+<div class="gov-accordion-item">
+<button class="gov-accordion-header">
+How can I track my application status?
+</button>
+<div class="gov-accordion-content">
+<p>
+Log in to your dashboard and check the real-time status of your
+application under the "My Applications" section.
+</p>
+</div>
+</div>
+
+<div class="gov-accordion-item">
+<button class="gov-accordion-header">
+Is my personal data secure on this portal?
+</button>
+<div class="gov-accordion-content">
+<p>
+Yes. Our platform uses secure encryption and government-approved
+data protection standards to ensure your information is safe.
+</p>
+</div>
+</div>
+
+<div class="gov-accordion-item">
+<button class="gov-accordion-header">
+Can I download certificates online?
+</button>
+<div class="gov-accordion-content">
+<p>
+Once your application is approved, you can download your certificate
+directly from your account dashboard.
+</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+               
+                <footer class="main-footer-two">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                                <div class="footer-widget footer-widget--about">
+                                    <a href="index2.html" class="footer-widget__logo">
+                                        <img src="assets/images/home1/resources/logo.webp" width="111" alt="Stackly">
+                                    </a>
+                                    <p class="footer-widget__text">
+Our Government Services Portal provides secure, transparent, and 
+    citizen-friendly digital solutions.
+                                    </p>
+                                    <form action="#" class="footer-widget__newsletter mc-form">
+                                        <input type="text" name="EMAIL" placeholder="enter your email">
+                                        <button class="lotech-btn" type="submit">
+                                            <i class="flaticon-long-arrow-right"></i>
+                                            <span class="sr-only">submit</span><!-- /.sr-only -->
+                                        </button>
+                                    </form><!-- /.footer-widget__newsletter mc-form -->
+                                    <div class="footer-widget__social">
+                                        <p class="footer-widget__social__title">Social icon :</p>
+                                        <a href="404_1.html">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                            <span class="sr-only">Facebook</span>
+                                        </a>
+                                        <a href="404_1.html">
+                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                                            <span class="sr-only">Twitter</span>
+                                        </a>
+                                        <a href="404_1.html">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                            <span class="sr-only">Instagram</span>
+                                        </a>
+                                        <a href="404_1.html">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                                            <span class="sr-only">Youtube</span>
+                                        </a>
+                                    </div><!-- /.main-footer-two__bottom -->
+                                </div><!-- /.footer-widget -->
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6 col-lg-2" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
+                                <div class="footer-widget footer-widget--links">
+                                    <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
+                                    <ul class="list-unstyled footer-widget__links">
+                                        <li><a href="about2.html">About</a></li>
+                                        <li><a href="services2.html">Services</a></li>
+                                        <li><a href="faq.html">FAQ's</a></li>
+                                        <li><a href="news.html">News</a></li>
+                                        <li><a href="contact2.html.html">Contact Us</a></li>
+                                    </ul><!-- /.list-unstyled footer-widget__links -->
+                                </div><!-- /.footer-widget -->
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
+                                <div class="footer-widget footer-widget--contact">
+                                    <h2 class="footer-widget__title">Contact Us</h2><!-- /.footer-widget__title -->
+                                    <ul class="footer-widget__info">
+                                        <li>
+                                            <i class="flaticon-phone"></i>
+                                            <a>+91 1234567890</a><br>
+                                            <a>+91 1234567890</a>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-envelope"></i>
+                                            <a>Info@gmail.com</a><br>
+                                            <a>Support@gmail.com</a>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-location"></i>
+                                            Salem, Tamilnadu, <br> India.
+                                        </li>
+                                    </ul><!-- /.list-unstyled -->
+                                </div><!-- /.footer-widget -->
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                                <div class="footer-widget footer-widget--instagram">
+                                    <h2 class="footer-widget__title">Instagram</h2><!-- /.footer-widget__title -->
+                                    <div class="footer-widget__instagram">
+                                        <a href="404_1.html"><img src="assets/images/home1/resources/citizen.webp" alt="Stackly"></a>
+                                        <a href="404_1.html"><img src="assets/images/home1/resources/digital.webp" alt="Stackly"></a>
+                                        <a href="404_1.html"><img src="assets/images/home1/resources/documents.webp" alt="Stackly"></a>
+                                        <a href="404_1.html"><img src="assets/images/home1/resources/welfare.webp" alt="Stackly"></a>
+                                    </div>
+                                </div><!-- /.footer-widget -->
+                            </div><!-- /.col-md-6 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                    <div class="container-fluid">
+                        <div class="main-footer-two__border"></div>
+                    </div>
+                    <div class="container">
+                        <div class="main-footer-two__bottom">
+                            <p class="main-footer-two__copyright">
+                                &copy; Copyright <span class="dynamic-year"></span> by Stackly.
+                            </p>
+                            <ul class="list-unstyled main-footer-two__nav">
+                                <li><a href="404_1.html">Trams & Condition</a></li>
+                                <li><a href="404_1.html">Privacy policy</a></li>
+                                <li><a href="contact2.html">Contact us</a></li>
+                            </ul><!-- /.list-unstyled footer-widget__links -->
+                        </div><!-- /.main-footer-two__bottom -->
+                    </div>
+                </footer><!-- /.main-footer-two -->
+            </div>
+        </div>
+    </div><!-- /.page-wrapper -->
+
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="flaticon-close"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/home1/resources/logo.webp" width="155" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+           <li class="mobile-login">
+    <a href="login2.html" class="mobile-login-btn">
+        Login / Register
+    </a>
+</li>
+            </ul><!-- /.mobile-nav__contact -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <!-- back-to-top-start -->
+    <a href="#" class="scroll-top">
+        <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </a>
+    <!-- back-to-top-end -->
+
+<script>
+
+document.querySelector(".mc-form").addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    let form = this;
+    let emailInput = form.querySelector("input[name='EMAIL']");
+    let email = emailInput.value.trim();
+
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // remove old error
+    let oldError = document.querySelector(".newsletter-error");
+    if(oldError){
+        oldError.remove();
+    }
+
+    // create error element
+    let error = document.createElement("div");
+    error.className = "newsletter-error";
+    error.style.color = "red";
+    error.style.fontSize = "13px";
+    error.style.marginTop = "8px";
+
+    // empty validation
+    if(email === ""){
+        error.innerText = "Email field is required.";
+        form.after(error);
+        return;
+    }
+
+    // email validation
+    if(!emailPattern.test(email)){
+        error.innerText = "Please enter a valid email (example@yourdomain.com).";
+        form.after(error);
+        return;
+    }
+
+    // if valid redirect
+    window.location.href = "404_1.html";
+
+});
+
+</script>
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/date-time-picker/jquery.datetimepicker.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/slick/slick.min.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+
+    <!-- gsap js -->
+    <script src="assets/vendors/gsap/gsap.js"></script>
+    <script src="assets/vendors/gsap/scroll-smoother.js"></script>
+    <script src="assets/vendors/gsap/scroll-trigger.js"></script>
+    <script src="assets/vendors/gsap/scroll-to-plugin.js"></script>
+    <script src="assets/vendors/gsap/split-text.js"></script>
+    <script src="assets/vendors/gsap/gsap-lotech.js"></script>
+    <!-- template js -->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+
+const faqHeaders = document.querySelectorAll(".gov-accordion-header");
+
+faqHeaders.forEach(header => {
+header.addEventListener("click", function(){
+
+const content = this.nextElementSibling;
+
+document.querySelectorAll(".gov-accordion-content").forEach(item=>{
+if(item !== content){
+item.style.maxHeight = null;
+}
+});
+
+if(content.style.maxHeight){
+content.style.maxHeight = null;
+}else{
+content.style.maxHeight = content.scrollHeight + "px";
+}
+
+});
+});
+
+</script>
+</body>
+</html>
