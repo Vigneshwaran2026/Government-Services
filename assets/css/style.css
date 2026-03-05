@@ -7563,11 +7563,11 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: 2;
   text-align: right;
   margin-top: -100px;
-  padding-right: 39px;
+  padding-right: 20px;
 }
 @media (max-width: 1199px) {
   .hero-banner-two__image {
-    padding-right: 0px;
+    padding-right: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -7595,7 +7595,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .hero-banner-two__image img {
   max-width: 100%;
   height: auto;
-  margin-left: 50px;
+  margin-left: 10px;
   animation: movebounce2 3s linear 0s infinite;
 }
 @media (min-width: 1400px) {
@@ -7603,7 +7603,6 @@ body.megamenu-popup-active .mobile-nav__content {
     margin-left: 14px;
   }
 }
-
 
 .slider-one {
   position: relative;
@@ -17052,17 +17051,20 @@ body.dark-mode .result {
 
 /* Login Button */
 .login-btn{
-    background:transparent;
-    border:2px solid var(--lotech-base, #4946EC);
-    color:var(--lotech-base, #4946EC);
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
 }
 
+/* Hover */
 .login-btn:hover{
-    background:var(--lotech-base, #4946EC);
-    color:#fff;
-    box-shadow:0 8px 20px rgba(73,70,236,0.4);
+    background: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
 }
-
 /* ================= MOBILE TOPBAR REMOVE ================= */
 @media (max-width: 991px) {
 
@@ -17263,7 +17265,7 @@ margin-top:5px;
 .breadcrumb-modern{
     position:relative;
     padding:180px 0 100px;
-    background:linear-gradient(135deg,#8b88da,#8e8bdc,#9b97e5);
+    background:#4946EC; /* Updated background color */
     overflow:hidden;
 }
 
@@ -17271,7 +17273,6 @@ margin-top:5px;
     position:absolute;
     width:500px;
     height:500px;
-    background:rgba(255,255,255,0.08);
     border-radius:50%;
     top:-150px;
     left:-150px;
@@ -17328,3 +17329,5 @@ margin-top:5px;
     justify-content: center;
     margin-left: 20px; /* adjust value if needed */
 }
+
+
