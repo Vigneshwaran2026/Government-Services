@@ -7562,7 +7562,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   z-index: 2;
   text-align: right;
-  margin-top: -100px;
+  margin-top: -20px;
   padding-right: 20px;
 }
 @media (max-width: 1199px) {
@@ -17330,4 +17330,58 @@ margin-top:5px;
     margin-left: 20px; /* adjust value if needed */
 }
 
+.hero-banner-two__content {
+  position: relative;
+}
 
+/* SUB TITLE */
+.hero-banner-two__sub-title {
+  display: inline-block;
+  font-size: 18px; /* reduced */
+  font-weight: 700;
+  color: var(--lotech-white, #ffffff);
+  text-transform: uppercase;
+  background-color: rgba(var(--lotech-white-rgb, 255, 255, 255), 0.2);
+  border-radius: 60px;
+  line-height: 1;
+  padding: 14px 24px; /* reduced */
+  margin: 0 0 18px;
+  position: relative;
+}
+
+/* TITLE */
+.hero-banner-two__title {
+  font-size: 80px; /* reduced from 128 */
+  font-weight: 900;
+  line-height: 80px;
+  color: var(--lotech-white, #ffffff);
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+
+/* TEXT */
+.hero-banner-two__text {
+  font-size: 18px; /* reduced */
+  line-height: 28px;
+  color: rgba(var(--lotech-white-rgb, 255, 255, 255), 0.85);
+  margin: 0 0 35px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1199px){
+  .hero-banner-two__title{
+    font-size: 56px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 767px){
+  .hero-banner-two__title{
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .hero-banner-two__text{
+    font-size:16px;
+  }
+}
