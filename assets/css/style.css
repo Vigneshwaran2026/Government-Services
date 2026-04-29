@@ -1,47 +1,3 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Common
-# Custom Cursor
-# Animations
-# Cards
-# Topbar
-# Navigation
-# Home Showcase
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
-# Forms
-# Comments
-# Sidebar Popup
-# Sidebar
-# Footer
-# Hero Slider
-# About
-# Contact
-# Testimonials
-# Package
-# Services
-# Service Details
-# Portfolio
-# Portfolio Details
-# Why Choose
-# Funfact
-# CTA
-# Gallery
-# Blog Details
-# Shop
-# Shop Details
-# Cart
-# Checkout
-# Work Process
-# Sliding Text
-# Error 404
-# Boxed Home
---------------------------------------------------------------*/
 :root {
   --lotech-font: "DM Sans", serif;
   --lotech-heading-font: "Yantramanav", serif;
@@ -49,8 +5,8 @@
   --lotech-text-rgb: 89, 97, 113;
   --lotech-text-dark: #43435C;
   --lotech-text-dark-rgb: 67, 67, 92;
-  --lotech-base: #4946EC;
-  --lotech-base-rgb: 73, 70, 236;
+  --lotech-base: #3a7f53;
+  --lotech-base-rgb: 58, 127, 83;
   --lotech-gray: #D9D9D9;
   --lotech-gray-rgb: 217, 217, 217;
   --lotech-white: #ffffff;
@@ -69,6 +25,7 @@
   --lotech-letter-space: 0.1em;
   --lotech-letter-space-xl: 0.2em;
 }
+
 
 /*--------------------------------------------------------------
 # Utility
@@ -332,10 +289,10 @@
   transition: all 0.3s ease;
 }
 .social__list li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .social__list li a:hover i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   animation: bounceIn 1s linear;
   animation-duration: 1s;
 }
@@ -385,7 +342,7 @@ body.locked {
 }
 
 a {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 400ms ease;
 }
 
@@ -433,7 +390,7 @@ h6 {
 }
 
 .background-base {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 
 .background-gray {
@@ -566,7 +523,7 @@ h6 {
   -webkit-appearance: none;
   border: none;
   outline: none !important;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   font-family: var(--lotech-heading-font, "Yantramanav", serif);
   color: var(--lotech-white, #ffffff);
   font-size: 16px;
@@ -641,7 +598,7 @@ h6 {
 .lotech-ratings__icon {
   display: inline-flex;
   font-size: 16px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .lotech-ratings__icon svg {
@@ -661,7 +618,7 @@ h6 {
 }
 .bootstrap-select .dropdown-item.active,
 .bootstrap-select .dropdown-item:active {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 
 .tns-outer .tns-controls {
@@ -750,7 +707,7 @@ h6 {
 }
 .ul-list-one li::before {
   content: "\e907";
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-size: 26px;
   position: absolute;
   top: 50%;
@@ -825,7 +782,7 @@ h6 {
   line-height: 50px;
   font-size: 12px;
   transform: rotate(-45deg);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   left: 0;
   top: 0;
   height: 100%;
@@ -837,7 +794,7 @@ h6 {
   transition: all 200ms linear;
 }
 .scroll-top__circle path {
-  stroke: var(--lotech-base, #4946EC);
+  stroke: var(--lotech-base, #3a7f53);
   stroke-width: 4;
   fill: none;
   box-sizing: border-box;
@@ -915,7 +872,7 @@ h6 {
 }
 .post-pagination li.active a {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .post-pagination li.active a .post-pagination__icon {
   color: var(--lotech-white, #ffffff);
@@ -949,7 +906,7 @@ h6 {
   transition: all 500ms ease;
 }
 .pagination-box__btn:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .pagination-box__icon {
   display: inline-flex;
@@ -976,7 +933,7 @@ h6 {
   transition: all 500ms ease;
 }
 .pagination-box__text:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .lotech-owl__carousel--with-shadow .owl-stage-outer {
@@ -1006,7 +963,7 @@ h6 {
   margin: 0;
   padding: 0;
   opacity: 1;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1028,7 +985,7 @@ h6 {
 }
 .lotech-owl__carousel--basic-nav.owl-carousel .owl-nav button.owl-prev:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .lotech-owl__carousel--basic-nav.owl-carousel .owl-dots {
   display: flex;
@@ -1059,13 +1016,13 @@ h6 {
   bottom: 0;
   margin: auto;
   border-radius: 50%;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   transform: scale(0);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
 .lotech-owl__carousel--basic-nav.owl-carousel .owl-dots .owl-dot:hover span, .lotech-owl__carousel--basic-nav.owl-carousel .owl-dots .owl-dot.active span {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .lotech-owl__carousel--basic-nav.owl-carousel .owl-dots .owl-dot:hover span::after, .lotech-owl__carousel--basic-nav.owl-carousel .owl-dots .owl-dot.active span::after {
   transform: scale(1);
@@ -1127,7 +1084,7 @@ h6 {
 }
 .sec-title__tagline {
   margin: 0;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-transform: uppercase;
   display: inline-block;
   font-weight: 700;
@@ -1141,7 +1098,7 @@ h6 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to left, rgba(var(--lotech-base-rgb, 73, 70, 236), 0.2) 50%, var(--lotech-base, #4946EC) 50%);
+  background-image: linear-gradient(to left, rgba(var(--lotech-base-rgb, 73, 70, 236), 0.2) 50%, var(--lotech-base, #3a7f53) 50%);
 }
 .sec-title__title {
   margin: 0;
@@ -1202,13 +1159,13 @@ h6 {
 .ui-datepicker-calendar .ui-widget-content .ui-state-default:hover,
 .ui-datepicker-calendar .ui-widget-header .ui-state-default:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .ui-datepicker-calendar .ui-state-highlight,
 .ui-datepicker-calendar .ui-widget-content .ui-state-highlight,
 .ui-datepicker-calendar .ui-widget-header .ui-state-highlight {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 
 .ui-datepicker .ui-datepicker-prev,
@@ -1219,7 +1176,7 @@ h6 {
 }
 .ui-datepicker .ui-datepicker-prev:hover,
 .ui-datepicker .ui-datepicker-next:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   top: 2px;
 }
@@ -1235,15 +1192,15 @@ h6 {
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  background: var(--lotech-base, #4946EC);
-  box-shadow: var(--lotech-base, #4946EC) 0 1px 3px 0 inset;
+  background: var(--lotech-base, #3a7f53);
+  box-shadow: var(--lotech-base, #3a7f53) 0 1px 3px 0 inset;
   color: var(--lotech-white, #ffffff);
   font-weight: 700;
 }
 
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
-  background: var(--lotech-base, #4946EC) !important;
+  background: var(--lotech-base, #3a7f53) !important;
   color: var(--lotech-white, #ffffff) !important;
 }
 
@@ -1254,7 +1211,7 @@ h6 {
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   -webkit-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
   position: fixed;
@@ -1269,7 +1226,7 @@ h6 {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   opacity: 0.3;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
@@ -1280,7 +1237,7 @@ h6 {
   z-index: 999991;
 }
 .custom-cursor__hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   opacity: 0.4;
 }
 .custom-cursor__innerhover {
@@ -2070,8 +2027,8 @@ h6 {
   animation-delay: 0s;
 }
 .video-one .video-popup:hover i {
-  color: var(--lotech-base, #4946EC);
-  border-color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
+  border-color: var(--lotech-base, #3a7f53);
 }
 
 .video-space {
@@ -2143,7 +2100,7 @@ h6 {
   z-index: 10;
 }
 .video-two__btn .video-popup:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .video-two__btn .curved-circle {
   position: absolute;
@@ -2187,7 +2144,7 @@ h6 {
   }
 }
 .video-two__link::before {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 
 .team-one {
@@ -2225,7 +2182,7 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   overflow: hidden;
   transition: all 500ms ease;
@@ -2303,7 +2260,7 @@ h6 {
   width: 40px;
   height: 40px;
   font-size: 16px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   border-radius: 0;
   display: flex;
@@ -2363,7 +2320,7 @@ h6 {
   background-size: 100% 1px;
 }
 .team-card__title a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .team-card__designation {
   margin: 0;
@@ -2436,7 +2393,7 @@ h6 {
   transition: all 500ms ease;
 }
 .team-two__item:hover .team-two__item__title {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-size: 100% 2px;
 }
 .team-two__item__designation {
@@ -2480,7 +2437,7 @@ h6 {
   transition: all 0.6s ease-out;
 }
 .team-two__item:hover .team-two__item__rm {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .team-two__item:hover .team-two__item__rm .team-two__item__rm__icon i:first-child {
@@ -2501,7 +2458,7 @@ h6 {
   background-color: rgba(var(--lotech-black-rgb, 14, 15, 17), 0.2);
 }
 .team-two__item:hover .team-two__item__divider {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   animation: widths 2s infinite;
 }
 .team-two__item__image {
@@ -2603,7 +2560,7 @@ h6 {
   width: 0px;
   top: 0;
   left: 0;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 800ms linear;
 }
 .team-details__progress__number {
@@ -2653,7 +2610,7 @@ h6 {
   border-radius: 50%;
   font-size: 16px;
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   overflow: hidden;
   z-index: 1;
   transition: all 500ms ease;
@@ -2719,18 +2676,18 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   border-radius: 50%;
   overflow: hidden;
   transition: all 500ms ease;
 }
 li:hover .team-details__info__icon-box {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .team-details__info__icon {
   display: inline-flex;
   font-size: 16px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .team-details__info__icon svg {
   width: 1em;
@@ -2748,7 +2705,7 @@ li:hover .team-details__info__icon {
   line-height: 1.625;
 }
 .team-details__info a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .blog-one {
@@ -2838,10 +2795,10 @@ li:hover .team-details__info__icon {
   bottom: -10px;
 }
 .blog-card:hover .blog-card__date {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .blog-card:hover .blog-card__date::after {
-  border-top-color: var(--lotech-base, #4946EC);
+  border-top-color: var(--lotech-base, #3a7f53);
 }
 .blog-card__content {
   position: relative;
@@ -2863,7 +2820,7 @@ li:hover .team-details__info__icon {
 }
 .blog-card__meta li i {
   font-size: 18px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   margin-right: 8px;
 }
 .blog-card__meta li a {
@@ -2873,7 +2830,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .blog-card__meta li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 1px currentColor;
 }
 .blog-card__title {
@@ -2893,7 +2850,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .blog-card__title a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card__author {
   position: relative;
@@ -2914,7 +2871,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .blog-card__author a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .blog-two {
@@ -2999,7 +2956,7 @@ li:hover .team-details__info__icon {
   }
 }
 .blog-card-two:hover .blog-card-two__date {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-two__content {
   position: relative;
@@ -3043,7 +3000,7 @@ li:hover .team-details__info__icon {
 }
 .blog-card-two__meta li i {
   font-size: 18px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   margin-right: 8px;
 }
 .blog-card-two__meta li a {
@@ -3053,7 +3010,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .blog-card-two__meta li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 1px currentColor;
 }
 .blog-card-two__title {
@@ -3073,7 +3030,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .blog-card-two__title a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-two__btn {
   position: relative;
@@ -3115,7 +3072,7 @@ li:hover .team-details__info__icon {
   transition: all 0.6s ease-out;
 }
 .blog-card-two__btn:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-two__btn:hover .blog-card-two__btn__text {
   background-size: 100% 1px;
@@ -3240,7 +3197,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .blog-card-three__meta li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 1px currentColor;
 }
 .blog-card-three__title {
@@ -3260,7 +3217,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .blog-card-three__title a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-three__btn {
   position: relative;
@@ -3302,7 +3259,7 @@ li:hover .team-details__info__icon {
   transition: all 0.6s ease-out;
 }
 .blog-card-three__btn:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-three__btn:hover .blog-card-three__btn__text {
   background-size: 100% 1px;
@@ -3350,7 +3307,7 @@ li:hover .team-details__info__icon {
 .blog-card-list__date {
   width: 59px;
   height: 54px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -3394,7 +3351,7 @@ li:hover .team-details__info__icon {
   align-items: center;
 }
 .blog-card-list__meta li i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   margin-right: 10px;
 }
 .blog-card-list__meta li a {
@@ -3404,7 +3361,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .blog-card-list__meta li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-card-list__title {
   margin: 0;
@@ -3424,7 +3381,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .blog-card-list__title a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 1px currentColor;
 }
 .blog-card-list__text {
@@ -3510,13 +3467,13 @@ li:hover .team-details__info__icon {
   margin-left: 4px;
 }
 .topbar__toggler:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar__toggler:hover i {
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .topbar__toggler:hover span {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
   margin-left: 4px;
 }
@@ -3556,7 +3513,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .topbar__social a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .topbar-two {
@@ -3677,7 +3634,7 @@ li:hover .team-details__info__icon {
   max-width: 632px;
   width: 100%;
   height: 55px;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   border-radius: 10px;
   margin-left: auto;
 }
@@ -3761,9 +3718,9 @@ li:hover .team-details__info__icon {
 }
 .topbar-four__search__category .bootstrap-select .dropdown-menu > li:hover > a,
 .topbar-four__search__category .bootstrap-select .dropdown-menu > li.selected > a {
-  background: var(--lotech-base, #4946EC);
+  background: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__search input[type=search] {
   height: 53px;
@@ -3792,7 +3749,7 @@ li:hover .team-details__info__icon {
   transition: all 300ms ease;
 }
 .topbar-four__search button[type=submit]:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__info {
   position: relative;
@@ -3829,7 +3786,7 @@ li:hover .team-details__info__icon {
 }
 .topbar-four__info__item i {
   margin-right: 8px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   position: relative;
   top: -1px;
 }
@@ -3845,7 +3802,7 @@ li:hover .team-details__info__icon {
   background-size: 100% 1px;
 }
 .topbar-four__info__item a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__info__currency, .topbar-four__info__language {
   position: relative;
@@ -3871,7 +3828,7 @@ li:hover .team-details__info__icon {
   margin-right: 8px;
   position: relative;
   top: -1px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__info__currency > a::after, .topbar-four__info__language > a::after {
   position: relative;
@@ -3885,7 +3842,7 @@ li:hover .team-details__info__icon {
   margin-left: 8px;
 }
 .topbar-four__info__currency > a:hover, .topbar-four__info__language > a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__info__currency__dropdown, .topbar-four__info__language__dropdown {
   position: absolute;
@@ -3911,7 +3868,7 @@ li:hover .team-details__info__icon {
   border-bottom: 1px solid var(--lotech-border-color, #ECECEC);
 }
 .topbar-four__info__currency__dropdown a:hover, .topbar-four__info__language__dropdown a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .topbar-four__info__currency__dropdown a:last-child, .topbar-four__info__language__dropdown a:last-child {
   border: none;
@@ -3975,7 +3932,7 @@ li:hover .team-details__info__icon {
 }
 .main-header__cart:hover, .main-header__search:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .main-header--two {
   position: relative;
@@ -3999,7 +3956,7 @@ li:hover .team-details__info__icon {
 }
 .main-header--two.sticky-header--cloned .main-menu .main-menu__list > li.current > a,
 .main-header--two.sticky-header--cloned .main-menu .main-menu__list > li:hover > a {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .main-header--two .main-menu {
   margin-left: 115px;
@@ -4033,7 +3990,7 @@ li:hover .team-details__info__icon {
   background-color: var(--lotech-white, #ffffff);
 }
 .main-header--two .topbar__toggler:hover i span {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .main-header--two .main-header__cart,
 .main-header--two .main-header__search {
@@ -4048,7 +4005,7 @@ li:hover .team-details__info__icon {
 }
 .main-header--two .main-header__cart:hover,
 .main-header--two .main-header__search:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-color: var(--lotech-white, #ffffff);
 }
 .main-header--two .main-header__right {
@@ -4094,7 +4051,7 @@ li:hover .team-details__info__icon {
   width: 28.5%;
   height: 100%;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   clip-path: polygon(90% 0, 100% 40%, 90% 100%, 0 100%, 0 0);
 }
 @media (max-width: 1699px) {
@@ -4163,7 +4120,7 @@ li:hover .team-details__info__icon {
 }
 .main-header--three__topbar__info__item i {
   font-size: 14px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   display: inline-block;
   margin-right: 6px;
 }
@@ -4206,7 +4163,7 @@ li:hover .team-details__info__icon {
   transition: all 500ms ease;
 }
 .main-header--three__topbar__social a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .main-header--three .main-header__inner {
   display: block;
@@ -4317,7 +4274,7 @@ li:hover .team-details__info__icon {
 }
 .main-header--three .main-menu .main-menu__list > li.current > a,
 .main-header--three .main-menu .main-menu__list > li:hover > a {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .main-header--three .mobile-nav__btn span {
   background-color: var(--lotech-white, #ffffff);
@@ -4346,7 +4303,7 @@ li:hover .team-details__info__icon {
 }
 .main-header--three .main-header__cart:hover,
 .main-header--three .main-header__search:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-color: var(--lotech-white, #ffffff);
 }
 @media (max-width: 767px) {
@@ -4482,7 +4439,7 @@ li:hover .team-details__info__icon {
 }
 .main-menu .main-menu__list > li.current > a,
 .main-menu .main-menu__list > li:hover > a {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 0.5px currentColor;
 }
 .main-menu .main-menu__list > li.current > a::after,
@@ -4558,7 +4515,7 @@ li:hover .team-details__info__icon {
   font-weight: 700;
   font-family: "Font Awesome 5 Free";
   content: "\f111";
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   visibility: hidden;
   opacity: 0;
   transition: all 500ms ease;
@@ -4567,7 +4524,7 @@ li:hover .team-details__info__icon {
 .main-menu .main-menu__list li ul li.current > a,
 .main-menu .main-menu__list li ul li:hover > a {
   background-color: var(--lotech-gray, #D9D9D9);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .main-menu .main-menu__list li ul li.current > a::after,
 .main-menu .main-menu__list li ul li:hover > a::after {
@@ -4675,7 +4632,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .megamenu-popup .megamenu-clickable--close:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .megamenu-popup .megamenu-clickable--close span {
   width: 24px;
@@ -4727,7 +4684,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-weight: 600;
 }
 .demo-one__title:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .demo-one__title a {
   color: inherit;
@@ -4830,7 +4787,7 @@ body.megamenu-popup-active .mobile-nav__content {
   padding-bottom: 15px;
 }
 .home-showcase .demo-one__title:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 /*--------------------------------------------------------------
@@ -4929,7 +4886,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
 }
 .mobile-nav__close:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .mobile-nav__content .main-menu__list,
@@ -4968,13 +4925,13 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .mobile-nav__content .main-menu__list li a.expanded {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .mobile-nav__content .main-menu__list li a button {
   width: 30px;
   height: 30px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border: none;
   outline: none;
   color: var(--lotech-white, #ffffff);
@@ -5005,7 +4962,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-left: 20px;
 }
 .mobile-nav__social a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .mobile-nav__contact {
@@ -5029,13 +4986,13 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: 500ms;
 }
 .mobile-nav__contact li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .mobile-nav__contact li > i {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5361,7 +5318,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: inline-flex;
 }
 .lotech-breadcrumb li:not(:first-child) span {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .lotech-breadcrumb li a {
   color: inherit;
@@ -5372,7 +5329,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .lotech-breadcrumb li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 /*--------------------------------------------------------------
@@ -5557,7 +5514,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .form-one input[type=email]:focus,
 .form-one textarea:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .form-one textarea {
   height: 144px;
@@ -5595,7 +5552,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .form-one .bootstrap-select .dropdown-menu li a:hover,
 .form-one .bootstrap-select .dropdown-menu li a.active {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 
@@ -5765,7 +5722,7 @@ body.megamenu-popup-active .mobile-nav__content {
   cursor: pointer;
 }
 .sidebar-one__close:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .sidebar-one__content {
   width: 350px;
@@ -5814,7 +5771,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   top: 1px;
   font-size: 15px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   line-height: inherit;
 }
 .sidebar-one__info li a {
@@ -5826,7 +5783,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .sidebar-one__info li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .sidebar-one__social {
   position: relative;
@@ -5854,7 +5811,7 @@ body.megamenu-popup-active .mobile-nav__content {
   backface-visibility: hidden;
 }
 .sidebar-one__social a:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .sidebar-one__social a:hover i {
@@ -5893,7 +5850,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
 }
 .sidebar-one__newsletter button[type=submit]:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 /*--------------------------------------------------------------
@@ -5938,7 +5895,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .sidebar__form .form-one input[type=email]:focus,
 .sidebar__form .form-one textarea:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .sidebar__form .form-one textarea {
   margin-bottom: 15px;
@@ -5972,7 +5929,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .sidebar__search input[type=search]:focus,
 .sidebar__search input[type=text]:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .sidebar__search button[type=submit] {
   padding: 0;
@@ -5995,7 +5952,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .sidebar__search button[type=submit]:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .sidebar__search button[type=submit] svg {
   width: 1em;
@@ -6017,7 +5974,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: inline-flex;
   flex-shrink: 0;
   font-size: 24px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .sidebar__contact__icon svg {
   width: 1em;
@@ -6040,7 +5997,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .sidebar__contact__text:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .blog-sidebar__single {
@@ -6090,7 +6047,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .blog-sidebar__search input[type=search]:focus,
 .blog-sidebar__search input[type=text]:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .blog-sidebar__search button[type=submit] {
   padding: 0;
@@ -6113,7 +6070,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .blog-sidebar__search button[type=submit]:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-sidebar__search button[type=submit] svg {
   width: 1em;
@@ -6156,7 +6113,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .blog-sidebar__categories-box li a:hover {
@@ -6221,7 +6178,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: inherit;
   z-index: -1;
   transition: all 500ms ease;
@@ -6303,7 +6260,7 @@ body.megamenu-popup-active .mobile-nav__content {
   justify-content: center;
   gap: 10px;
   padding: 7px 20px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   font-size: 16px;
   color: var(--lotech-white, #ffffff);
   text-transform: capitalize;
@@ -6359,7 +6316,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 4px;
   height: 17px;
   margin: auto;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 400ms ease;
 }
 .service-sidebar__nav li::before {
@@ -6369,7 +6326,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transform: scalex(0);
   transform-style: preserve-3d;
   transition: transform 0.4s ease-in-out;
@@ -6383,7 +6340,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .service-sidebar__nav li.current, .service-sidebar__nav li:hover {
   color: var(--lotech-white, #ffffff);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .service-sidebar__nav li.current::after, .service-sidebar__nav li:hover::after {
   background-color: var(--lotech-white, #ffffff);
@@ -6420,7 +6377,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 0px;
   border-style: solid;
   border-width: 41px 47px 0 0;
-  border-color: var(--lotech-base, #4946EC) transparent transparent transparent;
+  border-color: var(--lotech-base, #3a7f53) transparent transparent transparent;
   transform: rotate(0deg);
 }
 .service-sidebar__contact__right-triangle {
@@ -6432,7 +6389,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 0px;
   border-style: solid;
   border-width: 0 0 41px 47px;
-  border-color: transparent transparent var(--lotech-base, #4946EC) transparent;
+  border-color: transparent transparent var(--lotech-base, #3a7f53) transparent;
   transform: rotate(0deg);
 }
 .service-sidebar__contact__icon {
@@ -6451,13 +6408,13 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-bottom: 36px;
 }
 .service-sidebar__contact__icon i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-size: 36px;
   transition: color 500ms ease, transform 500ms ease;
   transform: scale(1);
 }
 .service-sidebar__contact:hover .service-sidebar__contact__icon {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .service-sidebar__contact:hover .service-sidebar__contact__icon i {
   transform: scale(0.9);
@@ -6491,7 +6448,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .service-sidebar__contact__number a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .portfolio-details-sidebar__single {
@@ -6514,7 +6471,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 1.416;
 }
 .portfolio-details-sidebar__project {
-  background: var(--lotech-base, #4946EC);
+  background: var(--lotech-base, #3a7f53);
 }
 .portfolio-details-sidebar__project .portfolio-details-sidebar__title {
   color: var(--lotech-white, #ffffff);
@@ -6591,7 +6548,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
 }
 .portfolio-details-sidebar__social a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .portfolio-details-sidebar__social a:hover::after {
   width: 100%;
@@ -6612,7 +6569,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: inline-flex;
   flex-shrink: 0;
   font-size: 24px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .portfolio-details-sidebar__contact__icon svg {
   width: 1em;
@@ -6635,7 +6592,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .portfolio-details-sidebar__contact__text:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 /*--------------------------------------------------------------
@@ -6749,14 +6706,14 @@ body.megamenu-popup-active .mobile-nav__content {
   content: "";
   width: 6px;
   height: 6px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   transition: all 400ms ease;
   visibility: hidden;
   opacity: 0;
 }
 .footer-widget__links li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   padding-left: 16px;
 }
 .footer-widget__links li a:hover::before {
@@ -6854,7 +6811,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .footer-widget__info li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .footer-widget__info li a + a {
   margin-top: 10px;
@@ -6885,7 +6842,7 @@ body.megamenu-popup-active .mobile-nav__content {
   content: "";
   width: 40px;
   height: 40px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   font-size: 14px;
   color: var(--lotech-white, #ffffff);
@@ -6937,7 +6894,7 @@ body.megamenu-popup-active .mobile-nav__content {
   backface-visibility: hidden;
 }
 .footer-widget__social a:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .footer-widget__social a:hover i {
@@ -6995,7 +6952,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 13px;
   height: 1px;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 400ms ease;
   visibility: hidden;
   opacity: 0;
@@ -7020,7 +6977,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 6px;
 }
 .main-footer-two .footer-widget__info li:hover i {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .main-footer-two__border {
   border-top: 1px solid rgba(var(--lotech-white-rgb, 255, 255, 255), 0.1);
@@ -7080,7 +7037,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .main-footer-two__nav li a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .main-footer-three {
@@ -7134,7 +7091,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 13px;
   height: 1px;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 400ms ease;
   visibility: hidden;
   opacity: 0;
@@ -7174,7 +7131,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 6px;
 }
 .main-footer-three .footer-widget__info li:hover i {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .main-footer-three .footer-widget--links {
   border-right: 1px solid rgba(var(--lotech-white-rgb, 255, 255, 255), 0.1);
@@ -7287,7 +7244,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .hero-banner-one__title span {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .hero-banner-one__text {
   font-size: 24px;
@@ -7367,7 +7324,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .hero-banner-two {
   position: relative;
   padding: 180px 0 120px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
   mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
   -webkit-mask-repeat: no-repeat;
@@ -7492,7 +7449,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .hero-banner-two__title span {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .hero-banner-two__text {
   font-size: 24px;
@@ -7645,7 +7602,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 0.4s ease;
 }
 .slider-one__carousel.owl-carousel .owl-nav .owl-prev:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .slider-one__carousel.owl-carousel .owl-nav .owl-next {
   position: absolute;
@@ -7664,7 +7621,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 0.4s ease;
 }
 .slider-one__carousel.owl-carousel .owl-nav .owl-next:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .slider-one__carousel .owl-dots {
   left: 60px;
@@ -7710,7 +7667,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .slider-one__carousel .owl-dots .owl-dot:hover span,
 .slider-one__carousel .owl-dots .owl-dot.active span {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .slider-one__item {
   background-color: var(--lotech-black, #0E0F11);
@@ -7844,7 +7801,7 @@ body.megamenu-popup-active .mobile-nav__content {
   opacity: 0;
   display: inline-block;
   padding-left: 29px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   clip-path: polygon(0 0, 100% 0, 100% 63%, 46% 100%);
   transition: transform 1000ms ease, opacity 1000ms ease;
   transition-delay: 0s, 0s;
@@ -7963,7 +7920,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 2px;
   width: 24px;
   height: 24px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   font-size: 16px;
   display: flex;
@@ -8030,7 +7987,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 5px;
   height: 36px;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 @media (max-width: 1199px) {
   .about-one .text-end {
@@ -8059,7 +8016,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 363px;
   height: 363px;
   content: "";
-  border: 30px solid var(--lotech-base, #4946EC);
+  border: 30px solid var(--lotech-base, #3a7f53);
   z-index: -1;
   border-radius: 50%;
 }
@@ -8117,7 +8074,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0 0 15px;
 }
 .about-two__content__heading span {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .about-two__content__text {
   margin: 0 0 19px;
@@ -8151,7 +8108,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 0.6s ease;
 }
 .about-two__content__list li:hover i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transform: rotateY(180deg);
 }
 .about-two__content__btn {
@@ -8274,7 +8231,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 0.6s ease;
 }
 .about-three__content__list li:hover i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transform: rotateY(180deg);
 }
 .about-three__content__btn {
@@ -8326,7 +8283,7 @@ body.megamenu-popup-active .mobile-nav__content {
   backface-visibility: hidden;
 }
 .about-three__box:hover .about-three__box__icon {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .about-three__box:hover .about-three__box__icon i {
   animation: iconTranslateX 0.4s forwards;
@@ -8355,12 +8312,12 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: center;
   font-size: 28px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-color: var(--lotech-white, #ffffff);
   transition: all 400ms ease;
 }
 .about-three__info:hover .about-three__info__icon {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .about-three__info__title {
@@ -8373,7 +8330,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .about-three__info__number {
   font-size: 24px;
   font-weight: 700;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   margin: 0;
 }
 .about-three__info__number a {
@@ -8385,7 +8342,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .about-three__info__number a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .about-three__image {
   position: relative;
@@ -8421,7 +8378,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-left: auto;
   width: 148px;
   height: 148px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
 }
 @media (max-width: 1199px) {
@@ -8446,7 +8403,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-family: var(--lotech-heading-font, "Yantramanav", serif);
   font-size: 24px;
   font-weight: 700;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .about-three__circle .count-box img {
   width: 28px;
@@ -8544,7 +8501,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   z-index: -1;
   clip-path: polygon(2% 0, 100% 6%, 100% 100%, 0 100%);
 }
@@ -8576,7 +8533,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .contact-two__box {
   position: relative;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   text-align: center;
   margin-right: -24px;
   padding: 52px 30px 51px;
@@ -8605,7 +8562,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .contact-two__box:hover .contact-two__box__icon {
   background-color: var(--lotech-white, #ffffff);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
 }
 .contact-two__box:hover .contact-two__box__icon i {
@@ -8700,13 +8657,13 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   z-index: 1;
   font-size: 24px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 300ms ease;
 }
 .contact__info__icon::after {
   position: absolute;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   width: 100%;
   height: 0%;
   left: 50%;
@@ -8740,7 +8697,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .contact__info__text a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .contact__info__text br {
   display: block;
@@ -8854,7 +8811,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .contact-info__card__list li:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .contact-info__card__list li a {
   color: inherit;
@@ -8934,7 +8891,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .testimonials-one .owl-carousel .owl-nav button:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .testimonials-one .owl-carousel .owl-nav button:first-child:hover i {
   animation: slideLeft 500ms;
@@ -8970,7 +8927,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: calc(100% + 30px);
   top: -15px;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   z-index: -1;
   clip-path: polygon(39% 0%, 100% 0%, 61% 100%, 0% 100%);
 }
@@ -9008,7 +8965,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -9101,7 +9058,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 69px;
   content: "";
   transition: all 500ms ease;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   clip-path: polygon(0 0, 92% 0, 100% 100%, 0 100%);
 }
 .testimonials-two__item__author::before {
@@ -9205,7 +9162,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   margin: auto;
   border-radius: 50%;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   transform: scale(0);
   transition: all 300ms ease;
 }
@@ -9213,7 +9170,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: none;
 }
 .testimonials-two .owl-carousel .owl-dots button:hover, .testimonials-two .owl-carousel .owl-dots button.active {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .testimonials-two .owl-carousel .owl-dots button.active:after {
   transform: scale(1);
@@ -9266,7 +9223,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .testimonials-three .owl-carousel .owl-nav button:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .testimonials-three .owl-carousel .owl-nav button:hover i {
   animation: iconTranslateX 0.4s forwards;
@@ -9299,7 +9256,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -9487,7 +9444,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: transparent;
   border: 1px solid rgba(var(--lotech-border-color-rgb, 236, 236, 236), 0.75);
   border-radius: 50%;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-size: 16px;
   width: 45px;
   height: 45px;
@@ -9498,8 +9455,8 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
 }
 .testimonials-four__next:hover, .testimonials-four__prev:hover {
-  border-color: var(--lotech-base, #4946EC);
-  background-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .testimonials-four__wrapper {
@@ -9570,7 +9527,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .package-one__item__text {
   display: inline-block;
   border: 1px solid rgba(var(--lotech-black-rgb, 14, 15, 17), 0.1);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-transform: capitalize;
   margin: 0 0 21px;
   padding: 1px 19.5px;
@@ -9651,7 +9608,7 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: 1;
   font-size: 48px;
   line-height: 48px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 300ms ease;
   margin: 0 0 19px;
 }
@@ -9731,7 +9688,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transform-origin: 0% 0% 0;
   border-radius: 40%;
   transition: all 0.5s;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   z-index: -1;
   transform: rotate(-180deg);
 }
@@ -9781,7 +9738,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: inline-block;
 }
 .service-one__text a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-size: 0% 1px;
 }
 .service-one--page {
@@ -9833,7 +9790,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   position: absolute;
   transform: translateY(-100%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 0.5s ease 0s;
   transition-delay: 0s;
   opacity: 0;
@@ -9857,7 +9814,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition-delay: 0.25s;
 }
 .service-two__item:hover {
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .service-two__item:hover .service-two__item__hover__item {
   transform: translateY(0px);
@@ -9890,7 +9847,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-two__item__icon {
   font-size: 80px;
   line-height: 80px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 300ms ease;
   margin: 0 0 42px;
 }
@@ -9993,7 +9950,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   position: absolute;
   transform: translateY(-100%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 0.5s ease 0s;
   transition-delay: 0s;
   opacity: 0;
@@ -10017,7 +9974,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition-delay: 0.25s;
 }
 .service-three__item:hover {
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .service-three__item:hover .service-three__item__hover__item {
   transform: translateY(0px);
@@ -10026,7 +9983,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-three__item__icon {
   font-size: 42px;
   line-height: 70px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 300ms ease;
   margin: 0 0 26px;
   display: flex;
@@ -10128,7 +10085,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .service-three__item:hover .service-three__item__btn {
   background-color: var(--lotech-white, #ffffff);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 
 .service-four {
@@ -10189,7 +10146,7 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 0;
   position: absolute;
   transform: translateY(-100%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 0.5s ease 0s;
   transition-delay: 0s;
   opacity: 0;
@@ -10213,7 +10170,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition-delay: 0.25s;
 }
 .service-four__item:hover {
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .service-four__item:hover .service-four__item__hover__item {
   transform: translateY(0px);
@@ -10243,7 +10200,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .service-four__item__icon {
   font-size: 48px;
   line-height: 90px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 300ms ease;
   margin: 0 0 85px;
   display: flex;
@@ -10305,7 +10262,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
@@ -10417,7 +10374,7 @@ body.megamenu-popup-active .mobile-nav__content {
   display: inline-flex;
   flex-shrink: 0;
   font-size: 55px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .service-details__title__icon svg {
   width: 1em;
@@ -10499,7 +10456,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .portfolio-one__carousel-nav a:hover {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .portfolio-one__carousel-nav a:hover i {
   animation: iconTranslateX 0.4s forwards;
@@ -10532,7 +10489,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   bottom: auto;
   transition: height 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0.2s;
-  background-image: linear-gradient(180deg, rgba(0, 10, 30, 0) 0%, rgb(0, 60, 234) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
 }
 .portfolio-one__item:hover::after {
   height: 100%;
@@ -10610,7 +10567,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   display: flex;
   align-items: center;
@@ -10716,7 +10673,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 100%;
   content: "";
   transition: all 0.5s ease;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   z-index: -1;
 }
 .portfolio-two__tabs li span {
@@ -10734,7 +10691,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .portfolio-two__tabs li:hover, .portfolio-two__tabs li.active-btn {
   color: var(--lotech-white, #ffffff);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
   width: calc(100% + 135px);
 }
 @media (max-width: 991px) {
@@ -10823,7 +10780,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   display: flex;
   align-items: center;
@@ -10954,7 +10911,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   opacity: 0;
   transform: translateY(70%);
-  background-image: linear-gradient(180deg, rgba(0, 10, 30, 0) 0%, rgb(0, 60, 234) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
   border-radius: inherit;
   z-index: 1;
   transition: all 500ms ease 500ms;
@@ -11010,7 +10967,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
   width: 47px;
   height: 47px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11066,6 +11023,7 @@ body.megamenu-popup-active .mobile-nav__content {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0s;
+  background-color: rgba(0, 0, 0, 0.85) !important;
 }
 .portfolio-three--page .portfolio-three__item:hover .portfolio-three__item__text {
   opacity: 1;
@@ -11082,6 +11040,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transform: translateY(0px);
   transition-delay: 300ms;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -11150,7 +11109,7 @@ body.megamenu-popup-active .mobile-nav__content {
   height: 100px;
   font-size: 20px;
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   position: relative;
   position: absolute;
   top: 50%;
@@ -11208,7 +11167,7 @@ body.megamenu-popup-active .mobile-nav__content {
   right: 0;
   bottom: 0;
   content: "";
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   border-radius: 50%;
   z-index: -1;
   transition: all 500ms ease;
@@ -11294,7 +11253,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   width: 100%;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 350ms ease;
   height: 0;
   z-index: -1;
@@ -11426,7 +11385,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .why-choose-two {
   position: relative;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .why-choose-two__shape {
   position: absolute;
@@ -11648,7 +11607,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .why-choose-three__item__icon {
   width: 57px;
   height: 57px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11707,7 +11666,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 0.3s ease;
 }
 .funfact-one__item:hover .funfact-one__item__count {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   animation: bounceIn 1s linear;
   animation-duration: 1s;
   animation-duration: 1s;
@@ -11720,7 +11679,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: rgba(var(--lotech-black-rgb, 14, 15, 17), 0.2);
 }
 .funfact-one__item:hover .funfact-one__item__divider {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   animation: widths 2s infinite;
 }
 .funfact-one__item__text {
@@ -11729,7 +11688,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .funfact-two {
   position: relative;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11773,7 +11732,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .funfact-two__list__icon {
   width: 94px;
   height: 94px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11804,10 +11763,10 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 42px 58px;
 }
 .funfact-two__item:nth-child(1), .funfact-two__item:nth-child(3) {
-  border-right: 1px solid var(--lotech-base, #4946EC);
+  border-right: 1px solid var(--lotech-base, #3a7f53);
 }
 .funfact-two__item:nth-child(1), .funfact-two__item:nth-child(2) {
-  border-bottom: 1px solid var(--lotech-base, #4946EC);
+  border-bottom: 1px solid var(--lotech-base, #3a7f53);
 }
 @media (max-width: 1199px) {
   .funfact-two__item {
@@ -11825,7 +11784,7 @@ body.megamenu-popup-active .mobile-nav__content {
     padding-left: 50px;
     flex: 0 0 100%;
     max-width: 100%;
-    border-bottom: 1px solid var(--lotech-base, #4946EC);
+    border-bottom: 1px solid var(--lotech-base, #3a7f53);
   }
 }
 .funfact-two__count {
@@ -11967,7 +11926,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .funfact-three__icon {
   width: 103px;
   height: 104px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   font-size: 60px;
   color: var(--lotech-white, #ffffff);
   display: flex;
@@ -12048,7 +12007,7 @@ body.megamenu-popup-active .mobile-nav__content {
   max-width: 750px;
 }
 .cta-one__tagline {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 13px;
@@ -12127,7 +12086,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-one__box__icon {
   width: 148px;
   height: 91px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -12273,7 +12232,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: var(--lotech-white, #ffffff);
 }
 .cta-two__content .lotech-btn:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   background-color: var(--lotech-white, #ffffff);
 }
 
@@ -12307,7 +12266,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-three__sub-title {
   position: relative;
   text-transform: uppercase;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-size: 16px;
   line-height: 1;
   font-weight: 700;
@@ -12476,7 +12435,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cta-four__item__sub-title {
   display: inline-block;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   font-size: 14px;
   font-weight: 600;
@@ -12525,7 +12484,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .cta-four__item__rm i {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   display: inline-block;
   margin-left: 7px;
   font-size: 14px;
@@ -12533,7 +12492,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 2px;
 }
 .cta-four__item__rm:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   text-shadow: 0 0 1px currentColor;
 }
 
@@ -12543,7 +12502,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cta-five__item {
   position: relative;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 20px;
   padding: 40px 40px 0;
   min-height: 406px;
@@ -12643,7 +12602,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: center;
   font-size: 12px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
 }
 .cta-five__item__rm:hover span {
@@ -12700,7 +12659,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-six__inner {
   position: relative;
   background-color: rgba(var(--lotech-base-rgb, 73, 70, 236), 0.1);
-  border: 1px dashed var(--lotech-base, #4946EC);
+  border: 1px dashed var(--lotech-base, #3a7f53);
   border-radius: 10px;
   padding: 0px 40px;
   display: flex;
@@ -12721,7 +12680,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-six__sub-title {
   position: relative;
   display: inline-block;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   font-size: 14px;
   font-weight: 600;
@@ -12740,7 +12699,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cta-six__middle {
   color: var(--lotech-white, #ffffff);
-  -webkit-text-stroke: 1px var(--lotech-base, #4946EC);
+  -webkit-text-stroke: 1px var(--lotech-base, #3a7f53);
   font-size: 70px;
   font-weight: 800;
   position: relative;
@@ -12774,7 +12733,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cta-six__coupone span {
   font-size: 24px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-weight: 600;
   display: inline-block;
 }
@@ -12854,7 +12813,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-seven__sub-title {
   position: relative;
   display: inline-block;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
   font-size: 14px;
   font-weight: 600;
@@ -12904,7 +12863,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-seven__btn .lotech-btn {
   background-color: var(--lotech-white, #ffffff);
   border-radius: 10px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   padding: 15px 21px;
 }
 .cta-seven__btn .lotech-btn i {
@@ -12912,11 +12871,11 @@ body.megamenu-popup-active .mobile-nav__content {
   margin-right: 10px;
 }
 .cta-seven__btn .lotech-btn:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .cta-seven__btn .lotech-btn::after {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 
 .car-showcase {
@@ -12962,7 +12921,7 @@ body.megamenu-popup-active .mobile-nav__content {
   width: 77.6%;
   height: 100%;
   content: "";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   clip-path: polygon(0 0, 72% 0, 100% 100%, 0% 100%);
   z-index: -1;
 }
@@ -13075,13 +13034,13 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   font-size: 14px;
   color: var(--lotech-white, #ffffff);
 }
 .gallery-page__card__hover .img-popup:hover {
   background-color: var(--lotech-white, #ffffff);
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transform: rotate(45deg);
 }
 .gallery-page__card__hover .img-popup svg {
@@ -13176,7 +13135,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .blog-details__content__quote__icon {
   font-size: 50px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   line-height: 1;
 }
 .blog-details__content__inner {
@@ -13236,7 +13195,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--lotech-text, #596171);
 }
 .blog-details__tags__box a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .blog-details__tags__box a:not(:last-of-type)::after {
   content: ",";
@@ -13327,7 +13286,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: inherit;
   z-index: -1;
   transition: all 500ms ease;
@@ -13401,7 +13360,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border-radius: 50%;
 }
 .product__showing__grid {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   font-size: 16px;
   color: var(--lotech-white, #ffffff);
   transition: all 500ms ease;
@@ -13418,7 +13377,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-color: RGBA(var(--lotech-base-rgb, 73, 70, 236), 0.1);
 }
 .product__showing__list:hover {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .product__showing__list__inner {
   display: block;
@@ -13531,9 +13490,9 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .product__showing__sort .bootstrap-select .dropdown-menu > li:hover > a,
 .product__showing__sort .bootstrap-select .dropdown-menu > li.selected > a {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .product__showing__filter {
   display: inline-flex;
@@ -13541,7 +13500,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   gap: 8px;
   padding: 15px 25px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .product__showing__filter:hover {
@@ -13600,7 +13559,7 @@ body.megamenu-popup-active .mobile-nav__content {
   align-items: center;
   width: 60px;
   height: 60px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   position: relative;
   position: absolute;
@@ -13642,7 +13601,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .product__card:hover .product__card__category {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
 }
 .product__card__content {
   padding: 22px 29px 30px;
@@ -13660,7 +13619,7 @@ body.megamenu-popup-active .mobile-nav__content {
   text-transform: capitalize;
 }
 .product__card__title:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product__card__title a {
   color: inherit;
@@ -13720,7 +13679,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .product__card__review__icon {
   display: inline-flex;
   font-size: 14px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product__card__review__icon svg {
   width: 1em;
@@ -13777,7 +13736,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--lotech-text, #596171);
 }
 .product__card__btn-circle:hover, .product__card__btn-bookmark:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product__card__btn-circle svg, .product__card__btn-bookmark svg {
   width: 1em;
@@ -13845,7 +13804,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .product__sidebar__search input[type=search]:focus,
 .product__sidebar__search input[type=text]:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .product__sidebar__search button[type=submit] {
   padding: 0;
@@ -13868,7 +13827,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .product__sidebar__search button[type=submit]:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product__sidebar__search button[type=submit] svg {
   width: 1em;
@@ -13911,7 +13870,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .product__sidebar__categories-box li a:hover {
@@ -13961,19 +13920,19 @@ body.megamenu-popup-active .mobile-nav__content {
 .product__price-ranger #slider-range {
   margin: 0;
   background-color: transparent;
-  border: 1px solid var(--lotech-base, #4946EC);
+  border: 1px solid var(--lotech-base, #3a7f53);
   height: 7px;
   border-radius: 10px;
   position: relative;
 }
 .product__price-ranger #slider-range .ui-slider-range {
   height: 100%;
-  background: var(--lotech-base, #4946EC);
+  background: var(--lotech-base, #3a7f53);
 }
 .product__price-ranger #slider-range .ui-slider-handle {
   position: absolute;
   top: -6.5px;
-  background: var(--lotech-base, #4946EC);
+  background: var(--lotech-base, #3a7f53);
   border: 0;
   height: 18px;
   width: 18px !important;
@@ -14051,7 +14010,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .product__categories ul li a .product-categories__icon {
@@ -14124,7 +14083,7 @@ body.megamenu-popup-active .mobile-nav__content {
   margin: 0;
   font-family: var(--lotech-font, "DM Sans", serif);
   font-size: 20px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-weight: 700;
 }
 .product-details__review {
@@ -14149,7 +14108,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-size: 100% 1px;
 }
 .product-details__review a:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product-details__excerpt {
   margin-top: 21px;
@@ -14172,7 +14131,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 1.25;
 }
 .product-details__excerpt__list li:last-child {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product-details__quantity {
   position: relative;
@@ -14234,7 +14193,7 @@ body.megamenu-popup-active .mobile-nav__content {
   transition: all 500ms ease;
 }
 .product-details__quantity .quantity-box__btn:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .product-details__buttons {
   display: flex;
@@ -14307,7 +14266,7 @@ body.megamenu-popup-active .mobile-nav__content {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: inherit;
   z-index: -1;
   transition: all 500ms ease;
@@ -14365,7 +14324,7 @@ body.megamenu-popup-active .mobile-nav__content {
   flex-shrink: 0;
   font-size: 8px;
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
 }
 .product-details__list__icon svg {
@@ -14418,7 +14377,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .product-details__ratings__icon {
   display: inline-flex;
   font-size: 20px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   transition: all 500ms ease;
 }
 .product-details__ratings__icon svg {
@@ -14515,7 +14474,7 @@ body.megamenu-popup-active .mobile-nav__content {
   fill: currentColor;
 }
 .cart-page__table tbody tr td .cart-page__table__remove:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .cart-page__table tbody tr td:first-child {
   padding-left: 0;
@@ -14548,7 +14507,7 @@ body.megamenu-popup-active .mobile-nav__content {
   line-height: 1.5;
 }
 .cart-page__table__meta__title:hover {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
 }
 .cart-page__table__meta__title a {
   color: inherit;
@@ -14590,7 +14549,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .cart-page__coupone__form input[type=text]:focus {
   color: var(--lotech-black, #0E0F11);
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 @media (max-width: 767px) {
   .cart-page__coupone__form input[type=text] {
@@ -14683,7 +14642,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .checkout-page .notice-box a {
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   font-weight: 700;
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
   transition: all 500ms ease;
@@ -14722,7 +14681,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .checkout-page .form-one input[type=tel]:focus,
 .checkout-page .form-one input[type=email]:focus,
 .checkout-page .form-one textarea:focus {
-  border-color: var(--lotech-base, #4946EC);
+  border-color: var(--lotech-base, #3a7f53);
 }
 .checkout-page__check-box {
   position: relative;
@@ -14767,7 +14726,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   width: 24px;
   height: 24px;
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   border-radius: 50%;
   border: none;
   vertical-align: middle;
@@ -14929,7 +14888,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .checkout-page__payment .checkout-page__payment__item--active .checkout-page__payment__title::before {
   content: "\f00c";
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   color: var(--lotech-white, #ffffff);
 }
 .checkout-page__payment__content {
@@ -14965,7 +14924,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 62%;
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(90deg, var(--lotech-base, #4946EC), var(--lotech-base, #4946EC) 40%, transparent 40%, transparent 100%);
+  background-image: linear-gradient(90deg, var(--lotech-base, #3a7f53), var(--lotech-base, #3a7f53) 40%, transparent 40%, transparent 100%);
   background-size: 12px 1px;
   z-index: -1;
   transition: all 0.7s;
@@ -14984,7 +14943,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .work-process-one__item__draw::after {
   content: "\e928";
   font-family: "Flaticon" !important;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   position: absolute;
   right: -30px;
   top: 50%;
@@ -14994,14 +14953,14 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .work-process-one__item__icon {
   font-size: 36px;
-  color: var(--lotech-base, #4946EC);
+  color: var(--lotech-base, #3a7f53);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 76px;
   height: 76px;
   margin: 0 auto;
-  border: 2px solid var(--lotech-base, #4946EC);
+  border: 2px solid var(--lotech-base, #3a7f53);
   border-radius: 50%;
   transition: all 500ms linear;
   transition-delay: 0.1s;
@@ -15009,7 +14968,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .work-process-one__item:hover .work-process-one__item__icon {
   color: var(--lotech-white, #ffffff);
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   transform: scale(1.05);
 }
 .work-process-one__item__number {
@@ -15064,7 +15023,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .slide-text__one {
-  background-color: var(--lotech-base, #4946EC);
+  background-color: var(--lotech-base, #3a7f53);
   padding: 19px 0;
   position: relative;
   white-space: nowrap;
@@ -15243,7 +15202,7 @@ body.megamenu-popup-active .mobile-nav__content {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   font-weight: 900;
-  stroke: var(--lotech-base, #4946EC);
+  stroke: var(--lotech-base, #3a7f53);
   text-transform: uppercase;
 }
 
@@ -15380,7 +15339,7 @@ body.dark-mode .footer {
 }
 
 body.dark-mode .lotech-btn {
-    background-color: #2563eb;
+    background-color: var(--lotech-base);
 }
 
 /* ===============================
@@ -15404,7 +15363,7 @@ body.dark-mode .main-header--three::after {
 
 /* Logo purple shape darker */
 body.dark-mode .main-header--three::before {
-  background-color: #2e2bc7;
+  background-color: #3a7f53;
 }
 
 /* Topbar background */
@@ -15549,7 +15508,7 @@ body.dark-mode .client-carousel__one__item i {
 }
 
 body.dark-mode .client-carousel__one__item:hover i {
-    color: var(--lotech-base, #4946EC);
+    color: var(--lotech-base, #3a7f53);
 }
 
 /* Fix client carousel text in dark mode */
@@ -15598,7 +15557,7 @@ body.dark-mode .about-three__info__title {
 
 /* Phone number */
 body.dark-mode .about-three__info__number {
-    color: var(--lotech-base, #4946EC);
+    color: var(--lotech-base, #3a7f53);
 }
 
 /* Info icon background */
@@ -15657,7 +15616,7 @@ body.dark-mode .service-four__item__text {
 
 /* Icon background */
 body.dark-mode .service-four__item__icon {
-    background-color: rgba(73, 70, 236, 0.2);
+    background-color: rgba(58,127,83,0.2);
 }
 
 /* Hover icon fix */
@@ -15819,7 +15778,7 @@ body.dark-mode .testimonials-three .owl-carousel .owl-nav button:hover {
 
 /* Decorative Shape Behind Image */
 body.dark-mode .testimonials-three__image::after {
-    background-color: rgba(73, 70, 236, 0.2);
+    background-color: rgba(58,127,83,0.2);
 }
 
 /* SVG stroke color (if visible in dark) */
@@ -15832,7 +15791,7 @@ body.dark-mode .testimonials-three__image svg path {
 /* ================================= */
 
 body.dark-mode .why-choose-two {
-    background-color: #2e2bbf; /* darker version of base */
+    background-color: #0f2f1f; /* darker version of base */
 }
 
 /* Optional softer look */
@@ -15886,7 +15845,7 @@ body.dark-mode .blog-three {
 
 /* Section Titles */
 body.dark-mode .blog-three .sec-title__tagline {
-    color: #8c8cff;
+    color: #3a7f53;
 }
 
 body.dark-mode .blog-three .sec-title__title {
@@ -15915,7 +15874,7 @@ body.dark-mode .blog-card-three__meta li a {
 }
 
 body.dark-mode .blog-card-three__meta li i {
-    color: #4946EC;
+    color: #3a7f53;
 }
 
 /* Blog Title */
@@ -15924,7 +15883,7 @@ body.dark-mode .blog-card-three__title a {
 }
 
 body.dark-mode .blog-card-three__title a:hover {
-    color: #4946EC;
+    color: #3a7f53;
 }
 
 /* Read More Button */
@@ -15933,12 +15892,12 @@ body.dark-mode .blog-card-three__btn__text {
 }
 
 body.dark-mode .blog-card-three__btn:hover .blog-card-three__btn__text {
-    color: #4946EC;
+    color: #3a7f53;
 }
 
 /* View All Button */
 body.dark-mode .blog-three__btn .lotech-btn {
-    background-color: #4946EC;
+    background-color: #3a7f53;
     color: #ffffff;
 }
 
@@ -15961,7 +15920,7 @@ body.dark-mode .funfact-one__item__count {
 
 /* Hover stays same accent */
 body.dark-mode .funfact-one__item:hover .funfact-one__item__count {
-  color: #4946EC;
+  color: #3a7f53;
 }
 
 /* Divider Line */
@@ -15971,7 +15930,7 @@ body.dark-mode .funfact-one__item__divider {
 
 /* Divider Hover Animation */
 body.dark-mode .funfact-one__item:hover .funfact-one__item__divider {
-  background-color: #4946EC;
+  background-color: #3a7f53;
 }
 
 /* Text */
@@ -16065,7 +16024,7 @@ body.dark-mode .funfact-one__item__text {
 }
 
 .fullscreen-menu__list li a:hover {
-    color: #4946EC;
+    color: #3a7f53;
 }
 
 .mobile-quote-btn {
@@ -16159,7 +16118,7 @@ body.dark-mode .funfact-one__item__text {
 }
 
 .page-header-modern__breadcrumb a {
-    color: #4946EC;
+    color: #3a7f53;
     text-decoration: none;
     font-weight: 600;
 }
@@ -16175,7 +16134,7 @@ body.dark-mode .funfact-one__item__text {
 .page-header-modern__shape {
     position: absolute;
     border-radius: 50%;
-    background: rgba(73,70,236,0.15);
+    background: rgba(58,127,83,0.15);
     animation: float 6s infinite ease-in-out;
 }
 
@@ -16263,7 +16222,7 @@ body.dark-mode .funfact-one__item__text {
     position: relative;
     padding: 200px 0 80px;
     overflow: hidden;
-    background: linear-gradient(135deg, #141a3a, #1a214d);
+    background: linear-gradient(135deg, #0f2f1f, #3a7f53);
     color: #ffffff; /* Force white text */
 }
 
@@ -16289,7 +16248,7 @@ body.dark-mode .funfact-one__item__text {
 }
 
 .page-header-modern__breadcrumb a {
-    color: #7c7cff; /* lighter purple */
+    color: #3a7f53; /* lighter purple */
     font-weight: 600;
     text-decoration: none;
 }
@@ -16302,7 +16261,7 @@ body.dark-mode .funfact-one__item__text {
 .page-header-modern__shape {
     position: absolute;
     border-radius: 50%;
-    background: rgba(124,124,255,0.15);
+    background: rgba(58,127,83,0.15);
     animation: float 6s infinite ease-in-out;
 }
 
@@ -16395,7 +16354,7 @@ body.dark-mode .funfact-one__item__text {
 .department-hero {
     position: relative;
     padding: 140px 0 100px;
-    background: linear-gradient(135deg, #141a3a, #1a214d);
+    background: linear-gradient(135deg, #0f2f1f, #3a7f53);
     color: #fff;
     text-align: center;
 }
@@ -16425,8 +16384,8 @@ body.dark-mode .funfact-one__item__text {
 
 .dept-btn {
     padding: 12px 25px;
-    background: rgba(73,70,236,0.1);
-    border: 1px solid #4946EC;
+    background: rgba(58,127,83,0.1);
+    border: 1px solid #3a7f53;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -16434,7 +16393,7 @@ body.dark-mode .funfact-one__item__text {
 
 .dept-btn.active,
 .dept-btn:hover {
-    background: #4946EC;
+    background: #3a7f53;
 }
 
 /* ============================= */
@@ -16444,7 +16403,7 @@ body.dark-mode .funfact-one__item__text {
 .department-services {
     position: relative;
     padding: 100px 0;
-    background: #0f122d;
+    background: #0b1a14;
 }
 
 .department-bg {
@@ -16472,7 +16431,7 @@ body.dark-mode .funfact-one__item__text {
 
 .dept-card:hover {
     transform: translateY(-8px);
-    border-color: #4946EC;
+    border-color: #3a7f53;
 }
 
 .dept-card h4 {
@@ -16487,14 +16446,14 @@ body.dark-mode .funfact-one__item__text {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 22px;
-    background: #4946EC;
+    background: #3a7f53;
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .apply-btn:hover {
-    background: #6b68ff;
+    background: #2e6642;
 }
 
 /* ============================= */
@@ -16519,7 +16478,7 @@ body.dark-mode .funfact-one__item__text {
 .department-services {
     position: relative;
     padding: 100px 0;
-    background: linear-gradient(135deg, #0f122d, #151a3a);
+    background: linear-gradient(135deg, #0b1a14, #151a3a);
     overflow: hidden;
 }
 
@@ -16551,8 +16510,8 @@ body.dark-mode .funfact-one__item__text {
 
 .dept-card:hover {
     transform: translateY(-10px);
-    border-color: #4946EC;
-    box-shadow: 0 15px 40px rgba(73,70,236,0.25);
+    border-color: #3a7f53;
+    box-shadow: 0 15px 40px rgba(58,127,83,0.25);
 }
 
 .dept-card h4 {
@@ -16568,7 +16527,7 @@ body.dark-mode .funfact-one__item__text {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -16613,7 +16572,7 @@ body.dark-mode .funfact-one__item__text {
 .dept-btn {
     padding: 14px 30px;
     background: #ffffff;              /* White background */
-    border: 2px solid #4946EC;
+    border: 2px solid #3a7f53;
     color: #000000;                   /* BLACK text before hover */
     font-weight: 600;
     border-radius: 6px;
@@ -16623,16 +16582,16 @@ body.dark-mode .funfact-one__item__text {
 
 /* Hover State */
 .dept-btn:hover {
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+    background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #ffffff;                   /* WHITE text after hover */
     transform: translateY(-3px);
 }
 
 /* Active Button */
 .dept-btn.active {
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+    background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #ffffff;
-    box-shadow: 0 8px 20px rgba(73,70,236,0.4);
+    box-shadow: 0 8px 20px rgba(58,127,83,0.4);
 }
 
 /* ============================= */
@@ -16642,19 +16601,19 @@ body.dark-mode .funfact-one__item__text {
 .dept-icon {
     width: 60px;
     height: 60px;
-    background: rgba(73,70,236,0.15);
+    background: rgba(58,127,83,0.15);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
     margin-bottom: 20px;
     font-size: 24px;
-    color: #6b68ff;
+    color: #2e6642;
     transition: 0.4s;
 }
 
 .dept-card:hover .dept-icon {
-    background: #4946EC;
+    background: #3a7f53;
     color: #fff;
     transform: rotateY(180deg);
 }
@@ -16675,8 +16634,8 @@ body.dark-mode .blog-card {
 }
 
 body.dark-mode .blog-card:hover {
-    border-color: #4946EC;
-    box-shadow: 0 15px 35px rgba(73,70,236,0.3);
+    border-color: #3a7f53;
+    box-shadow: 0 15px 35px rgba(58,127,83,0.3);
 }
 
 /* Title */
@@ -16685,7 +16644,7 @@ body.dark-mode .blog-card__title a {
 }
 
 body.dark-mode .blog-card__title a:hover {
-    color: #6b68ff;
+    color: #2e6642;
 }
 
 /* Meta */
@@ -16694,7 +16653,7 @@ body.dark-mode .blog-card__meta li {
 }
 
 body.dark-mode .blog-card__meta li a {
-    color: #6b68ff;
+    color: #2e6642;
 }
 
 body.dark-mode .blog-card__meta li a:hover {
@@ -16711,12 +16670,12 @@ body.dark-mode .blog-card__author a {
 }
 
 body.dark-mode .blog-card__author a:hover {
-    color: #6b68ff;
+    color: #2e6642;
 }
 
 /* Date Badge */
 body.dark-mode .blog-card__date {
-    background-color: #4946EC;
+    background-color: #3a7f53;
     color: #ffffff;
 }
 
@@ -16729,7 +16688,7 @@ body.dark-mode .post-pagination li a {
 
 body.dark-mode .post-pagination li a:hover,
 body.dark-mode .post-pagination li.active a {
-    background-color: #4946EC;
+    background-color: #3a7f53;
     color: #ffffff;
 }
 
@@ -16767,7 +16726,7 @@ body.dark-mode .post-pagination li.active a {
 }
 
 .apply-form-wrapper:hover {
-    box-shadow: 0 20px 50px rgba(73,70,236,0.15);
+    box-shadow: 0 20px 50px rgba(58,127,83,0.15);
 }
 
 /* FORM FIELDS */
@@ -16792,8 +16751,8 @@ body.dark-mode .post-pagination li.active a {
 .apply-form input:focus,
 .apply-form select:focus,
 .apply-form textarea:focus {
-    border-color: #4946EC;
-    box-shadow: 0 0 8px rgba(73,70,236,0.2);
+    border-color: #3a7f53;
+    box-shadow: 0 0 8px rgba(58,127,83,0.2);
 }
 
 /* BUTTON */
@@ -16803,7 +16762,7 @@ body.dark-mode .post-pagination li.active a {
     padding: 15px;
     border-radius: 50px;
     border: none;
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+    background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #ffffff;
     font-weight: 600;
     font-size: 16px;
@@ -16813,7 +16772,7 @@ body.dark-mode .post-pagination li.active a {
 
 .apply-btn-modern:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(73,70,236,0.3);
+    box-shadow: 0 10px 25px rgba(58,127,83,0.3);
 }
 
 /* IMAGE */
@@ -16870,7 +16829,7 @@ body.dark-mode .apply-form-wrapper {
 }
 
 body.dark-mode .apply-form-wrapper:hover {
-    box-shadow: 0 20px 50px rgba(73,70,236,0.35);
+    box-shadow: 0 20px 50px rgba(58,127,83,0.35);
 }
 
 /* FORM FIELDS */
@@ -16895,19 +16854,19 @@ body.dark-mode .apply-form select {
 body.dark-mode .apply-form input:focus,
 body.dark-mode .apply-form select:focus,
 body.dark-mode .apply-form textarea:focus {
-    border-color: #4946EC;
-    box-shadow: 0 0 10px rgba(73,70,236,0.4);
+    border-color: #3a7f53;
+    box-shadow: 0 0 10px rgba(58,127,83,0.4);
 }
 
 /* BUTTON */
 
 body.dark-mode .apply-btn-modern {
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+    background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #ffffff;
 }
 
 body.dark-mode .apply-btn-modern:hover {
-    box-shadow: 0 15px 30px rgba(73,70,236,0.4);
+    box-shadow: 0 15px 30px rgba(58,127,83,0.4);
 }
 
 /* IMAGE */
@@ -16948,7 +16907,7 @@ body.dark-mode .contact-info__card__list li a {
 }
 
 body.dark-mode .contact-info__card__list li a:hover {
-    color: #6b68ff;
+    color: #2e6642;
 }
 
 /* ================= CONTACT FORM SECTION ================= */
@@ -16961,7 +16920,7 @@ body.dark-mode .contact-three__wrapper {
 /* Titles */
 
 body.dark-mode .sec-title__tagline {
-    color: #6b68ff;
+    color: #2e6642;
 }
 
 body.dark-mode .sec-title__title {
@@ -16999,19 +16958,19 @@ body.dark-mode .form-one__control__select .selectpicker {
 body.dark-mode .form-one__control input:focus,
 body.dark-mode .form-one__control textarea:focus,
 body.dark-mode .form-one__control select:focus {
-    border-color: #4946EC;
-    box-shadow: 0 0 8px rgba(73,70,236,0.4);
+    border-color: #3a7f53;
+    box-shadow: 0 0 8px rgba(58,127,83,0.4);
 }
 
 /* ================= BUTTON ================= */
 
 body.dark-mode .lotech-btn {
-    background: linear-gradient(45deg,#4946EC,#6b68ff);
+    background: linear-gradient(45deg,#3a7f53,#2e6642);
     color: #ffffff;
 }
 
 body.dark-mode .lotech-btn:hover {
-    box-shadow: 0 12px 25px rgba(73,70,236,0.4);
+    box-shadow: 0 12px 25px rgba(58,127,83,0.4);
 }
 
 /* ================= CONTACT IMAGE ================= */
@@ -17094,14 +17053,14 @@ body.dark-mode .result {
     padding: 12px 20px;
     border-radius: 30px;
     font-weight: 600;
-    background: linear-gradient(135deg,#4946EC,#6E6BFF);
+    background: linear-gradient(135deg,#3a7f53,#6E6BFF);
     color: #fff !important;
     transition: all 0.3s ease;
 }
 
 .mobile-login-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(73,70,236,0.4);
+    box-shadow: 0 8px 20px rgba(58,127,83,0.4);
 }
 
 /* Reduce slide text spacing */
@@ -17162,7 +17121,7 @@ body.dark-mode .result {
     width:70px;
     height:70px;
     border:5px solid rgba(255,255,255,0.1);
-    border-top:5px solid #4f46e5;
+    border-top:5px solid #3a7f53; /* changed to green */
     border-radius:50%;
     animation:spin 1s linear infinite;
     margin:0 auto 20px;
@@ -17265,7 +17224,7 @@ margin-top:5px;
 .breadcrumb-modern{
     position:relative;
     padding:180px 0 100px;
-    background:#4946EC; /* Updated background color */
+    background:#3a7f53; /* Updated background color */
     overflow:hidden;
 }
 
@@ -17384,4 +17343,54 @@ margin-top:5px;
   .hero-banner-two__text{
     font-size:16px;
   }
+}
+
+
+/* ============================= */
+/* HERO VIDEO BACKGROUND */
+/* ============================= */
+
+.hero-banner-two {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Video */
+.hero-video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* GREEN OVERLAY */
+.hero-banner-two::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(58, 127, 83, 0.75); /* your green */
+    z-index: 1;
+}
+
+/* Keep content above overlay */
+.hero-banner-two .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-banner-two::before {
+    background: linear-gradient(
+        90deg,
+        rgba(58,127,83,0.85) 0%,
+        rgba(58,127,83,0.6) 50%,
+        rgba(58,127,83,0.85) 100%
+    );
 }
