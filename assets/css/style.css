@@ -7324,7 +7324,10 @@ body.megamenu-popup-active .mobile-nav__content {
 .hero-banner-two {
   position: relative;
   padding: 180px 0 120px;
+    background-color: var(--lotech-base, #3a7f53);
    background: url('../images/home1/backgrounds/hero2.webp') no-repeat center center/cover;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
+  mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center bottom;
