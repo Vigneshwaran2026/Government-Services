@@ -7325,6 +7325,7 @@ body.megamenu-popup-active .mobile-nav__content {
   position: relative;
   padding: 180px 0 120px;
   background-color: var(--lotech-base, #3a7f53);
+   background: url('../images/home1/backgrounds/hero2.webp') no-repeat center center/cover;
   -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
   mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1920 1007" xmlns="http://www.w3.org/2000/svg"><path d="M1920 1006.41V0H0V1007C669 947.317 935 942.237 1920 1006.41Z"/></svg>');
   -webkit-mask-repeat: no-repeat;
@@ -7334,6 +7335,18 @@ body.megamenu-popup-active .mobile-nav__content {
   -webkit-mask-size: cover;
   mask-size: cover;
 }
+
+.hero-banner-two::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 127, 83, 0.7); /* green overlay (matches your theme) */
+    z-index: -1;
+}
+
 @media (max-width: 1199px) {
   .hero-banner-two {
     padding: 200px 0 120px;
@@ -17224,14 +17237,26 @@ margin-top:5px;
 .breadcrumb-modern{
     position:relative;
     padding:180px 0 100px;
-    background:#3a7f53; /* Updated background color */
+    background: url('../images/home1/backgrounds/hero2.webp') no-repeat center center/cover;
     overflow:hidden;
+}
+
+.breadcrumb-modern::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 127, 83, 0.8); /* green overlay */
+    z-index: 1;
 }
 
 .breadcrumb-modern__bg{
     position:absolute;
     width:500px;
     height:500px;
+    
     border-radius:50%;
     top:-150px;
     left:-150px;
@@ -17247,6 +17272,7 @@ margin-top:5px;
 .breadcrumb-modern__content{
     text-align:center;
     color:#fff;
+    z-index: 9999;
     position:relative;
 }
 
@@ -17346,51 +17372,17 @@ margin-top:5px;
 }
 
 
-/* ============================= */
-/* HERO VIDEO BACKGROUND */
-/* ============================= */
 
-.hero-banner-two {
-    position: relative;
-    overflow: hidden;
+.sticky-header--cloned {
+  position: fixed;
+  top: -120px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  transition: all 0.4s ease;
 }
 
-/* Video */
-.hero-video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.hero-video-bg video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* GREEN OVERLAY */
-.hero-banner-two::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(58, 127, 83, 0.75); /* your green */
-    z-index: 1;
-}
-
-/* Keep content above overlay */
-.hero-banner-two .container {
-    position: relative;
-    z-index: 2;
-}
-
-
-.hero-banner-two::before {
-    background: linear-gradient(
-        90deg,
-        rgba(58,127,83,0.85) 0%,
-        rgba(58,127,83,0.6) 50%,
-        rgba(58,127,83,0.85) 100%
-    );
+.sticky-header--cloned.active {
+  top: 0;
 }
